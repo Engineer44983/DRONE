@@ -1,0 +1,28 @@
+{
+  "system_name": "Educational RF Detection System",
+  "version": "1.0.0",
+  "educational_purpose_only": true,
+  "license_required": true,
+  "allowed_usage": [
+    "Academic Research",
+    "Radio Amateur Training",
+    "RF Education"
+  ],
+  "prohibited_usage": [
+    "Military Applications",
+    "Drone Detection",
+    "Surveillance",
+    "Signal Intelligence"
+  ],
+  "frequency_bands": {
+    "note": "Frequencies for educational simulation only",
+    "ISM_433": [433.05, 434.79],
+    "ISM_868": [868.0, 868.6],
+    "ISM_915": [902.0, 928.0]
+  },
+  "detection_settings": {
+    "max_scan_time_minutes": 60,
+    "data_retention_days": 7,
+    "privacy_compliant": true
+  }
+}
